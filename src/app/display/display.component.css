@@ -1,0 +1,18 @@
+#container{
+ text-align: center;
+ border-radius: 1vh;
+ box-shadow: 5px 5px 0px 0px rgba(0, 0, 0, 0.089);
+ max-width: 900px;
+ aspect-ratio: 1;
+ background-color: rgba(0, 0, 0, 0.425);
+ background-image: url('../../assets/backgroundDisplay.png');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 350px;
+ 
+}
+
+img{
+    width: 100%;
+    margin: auto;
+}

@@ -1,0 +1,21 @@
+<div id="container">
+
+    <div id="area"><app-pokemon [fullData]="pokemon"></app-pokemon></div>
+    <div id="area">
+
+        <p><span id="tag">Tipo</span><span class="type" *ngFor="let type of pokemon?.types"> {{ type.type.name }} </span></p>
+        <p><span id="tag">Altura</span><span> {{ pokemon?.height }} ' </span> </p>
+        <p><span id="tag">Peso</span><span> {{ pokemon?.weight }} Lb </span> </p>
+        
+    </div>
+    <div id="areaDescription">
+        <div id="description">
+
+            <p id="pDescription">
+                {{ description }}
+            </p>
+
+        </div>
+    </div>
+
+</div>

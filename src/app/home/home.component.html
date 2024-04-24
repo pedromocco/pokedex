@@ -1,0 +1,11 @@
+<div id="background">
+
+    <main id="container">
+        <div id="pokemonContainer"><app-pokemon *ngFor="let pokemon of pokeList"[pokemon]="pokemon" id="display" (scroll)="onScroll($event)" #card (clicked)="clickedCard($event)" [selected]="pokemon.name === selectPokemon?.name"></app-pokemon>    </div>
+        <div><app-display id="app-display" [pokemon]=selectPokemon></app-display></div>
+        <div><app-detail [pokemon]=selectPokemon></app-detail></div>
+    </main>
+</div>
+
+
+<!--  -->

@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    margin: 0%; 
+    background-image: url(./assets/background.png);
+    background-size: cover;
+    -ms-overflow-style: none;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p{
+    margin: 0;
+}

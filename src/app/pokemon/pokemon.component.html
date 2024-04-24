@@ -1,0 +1,12 @@
+<div id="container" class="slide-right" [ngClass]="{selected: selected}">
+    <img src="../../assets/cursor.png" alt="" id="selector" *ngIf="selected">
+    <div id="card" (click)="clicked.emit(id)">
+        <img id="pokeimg" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/{{ id }}.png" alt="">
+        <img src="" alt="" id="backgroundCard">
+        <div>
+            <p *ngIf="pokemon"> {{ pokemon.name | titlecase }} </p>
+            <p>No. {{ id }} </p>    
+        </div>
+    
+    </div>
+</div>
