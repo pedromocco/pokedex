@@ -13,7 +13,7 @@
 
 This Pokedex captures the essence of adventure and discovery, inviting you to explore the world of Pokémon like never before.
 
-##Demo
+## Demo
 
 You can watch this pokedex in the following url
 [Pokedex](https://pokedex-five-fawn.vercel.app/)
