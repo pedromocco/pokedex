@@ -1,27 +1,47 @@
-# ZonaDePruebas
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+![Logo](https://pokedex.petrovicstefan.rs/images/poklogo.png)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+# Pokedex
 
-## Code scaffolding
+**Explore the fascinating universe of the first 150 Pokémon** with this interactive Pokedex, designed to provide a complete and engaging experience.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Discover their names, types, skills and statistics.
+- Immerse yourself in their detailed descriptions to better understand their behavior and nature.
+- Enjoy an intuitive and friendly interface that allows you to quickly find your favorite Pokémon.
+- Explore different views to view information the way you prefer.
 
-## Build
+This Pokedex captures the essence of adventure and discovery, inviting you to explore the world of Pokémon like never before.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+##Demo
 
-## Running unit tests
+You can watch this pokedex in the following url
+[Pokedex](https://pokedex-five-fawn.vercel.app/)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Deploy and test
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+To run this project, follow this steps:
 
-## Further help
+1) Clone the repository or download ZIP file and unzip in a folder.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+2) Run the terminal of you computer an access to the folder where is the project with
+```bash
+  cd "name_of_the_folder
+```
+
+3) Run the following command
+```bash
+  ng serve -o
+```
+
+
+## Authors
+
+- [@pedromocco](https://github.com/pedromocco)
+
+
+## Feedback
+
+If you have any feedback, please reach out to us at pedromocco00@gmail.com
+
